@@ -1,0 +1,8 @@
+﻿  camera.cpp
+camera.obj : error LNK2001: símbolos externos indefinidos "void __cdecl cv::imshow(class cv::String const &,class cv::_InputArray const &)" (?imshow@cv@@YAXAEBVString@1@AEBV_InputArray@1@@Z)
+camera.obj : error LNK2001: símbolos externos indefinidos "void __cdecl cv::cvtColor(class cv::_InputArray const &,class cv::_OutputArray const &,int,int)" (?cvtColor@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@HH@Z)
+camera.obj : error LNK2001: símbolos externos indefinidos "void __cdecl cv::HoughCircles(class cv::_InputArray const &,class cv::_OutputArray const &,int,double,double,double,double,int,int)" (?HoughCircles@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@HNNNNHH@Z)
+camera.obj : error LNK2001: símbolos externos indefinidos "void __cdecl cv::GaussianBlur(class cv::_InputArray const &,class cv::_OutputArray const &,class cv::Size_<int>,double,double,int)" (?GaussianBlur@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@V?$Size_@H@1@NNH@Z)
+camera.obj : error LNK2001: símbolos externos indefinidos "void __cdecl cv::Canny(class cv::_InputArray const &,class cv::_OutputArray const &,double,double,int,bool)" (?Canny@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@NNH_N@Z)
+camera.obj : error LNK2001: símbolos externos indefinidos "void __cdecl cv::circle(class cv::_InputOutputArray const &,class cv::Point_<int>,int,class cv::Scalar_<double> const &,int,int,int)" (?circle@cv@@YAXAEBV_InputOutputArray@1@V?$Point_@H@1@HAEBV?$Scalar_@N@1@HHH@Z)
+C:\Users\Gabriel\source\repos\Opencvtry\x64\Release\Opencvtry.exe : fatal error LNK1120: 6 externo não resolvidos
